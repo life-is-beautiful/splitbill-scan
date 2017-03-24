@@ -1,0 +1,16 @@
+{
+  "name": "splitbill-scan",
+  "version": "1.0.0",
+  "description": "Google Vision based receipt's text recognition",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny Muktar",
+  "license": "ISC",
+  "dependencies": {
+		"express": "4.13.x",
+	    "@google-cloud/vision":"0.10.x",
+      "@google-cloud/storage":"0.8.x"
+  }
+}
